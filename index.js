@@ -25,5 +25,5 @@ app.use("/api", bookRouter);
 app.use(errorMiddleware);
 
 app.listen(PORT, () => {
-  console.log(`🚀 Server ishga tushdi: http://localhost:${PORT}`);
+  console.log(`🚀 Server ishga tushdi:`+ PORT);
 });
